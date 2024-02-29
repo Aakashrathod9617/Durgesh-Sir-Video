@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="
+ http://www.springframwork.org/schema/context"
+	xmlns:p="http://www.springframwork.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+				<!-- autoWiring with xml fie -->
+
+<!-- yadi aapko kisi class ka ref lena h usse autowird krna h to class k attribute ka name or bean ka name same lena hoga -->
+	<bean class="com.springcore.auto.wire.Address" name="address">
+		<property name="street" value="Temp Street" />
+		<property name="city" value="Delhi" />
+
+	</bean>
+	
+	     <!-- by attribute name check krega byName -->
+	<!-- <bean class="com.springcore.auto.wire.Emp" name="emp1" autowire="byName" /> -->
+	
+	 <!-- by attribute type check krega byType -->
+	<!-- <bean class="com.springcore.auto.wire.Emp" name="emp1" autowire="byType" /> -->	
+			
+			<!-- by constructor check krega  -->
+		<bean class="com.springcore.auto.wire.Emp" name="emp1" autowire="constructor" /> 
+
+</beans> 
