@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="
+ http://www.springframwork.org/schema/context"
+ xmlns:p="http://www.springframwork.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+ <!-- this is over bean -->
+ <bean class="com.springcore.Student" name="student1" p:studentId="1437" p:studentName="sagar patidar" p:studentAddress="sagar" />
+ 
+ <!-- this is over Second bean -->
+ <bean class="com.springcore.Student" name="student2" p:studentId="007" p:studentName="ram patel" p:studentAddress="khargone" />
+ 
+ </beans> 

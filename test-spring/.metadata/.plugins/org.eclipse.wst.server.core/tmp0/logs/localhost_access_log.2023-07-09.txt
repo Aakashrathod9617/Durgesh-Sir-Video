@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:13:19 +0530] "GET /springmvc/contect HTTP/1.1" 200 2463
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:13:46 +0530] "POST /springmvc/processform HTTP/1.1" 500 4669
+127.0.0.1 - - [09/Jul/2023:00:15:44 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:15:48 +0530] "GET /springmvc/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:15:54 +0530] "GET /springmvc/contect HTTP/1.1" 200 2463
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:16:42 +0530] "POST /springmvc/processform HTTP/1.1" 200 435
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:25:34 +0530] "GET /springmvc/contect HTTP/1.1" 200 2463
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:25:57 +0530] "POST /springmvc/processform HTTP/1.1" 200 486
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:26:58 +0530] "GET /springmvc/processform HTTP/1.1" 405 749
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:27:06 +0530] "GET /springmvc/contect HTTP/1.1" 200 2463
+0:0:0:0:0:0:0:1 - - [09/Jul/2023:00:27:31 +0530] "POST /springmvc/processform HTTP/1.1" 200 477
